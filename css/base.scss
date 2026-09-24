@@ -1,17 +1,15 @@
-$safety-border-prim: 2px solid red;
-$safety-border-scnd: 2px dotted blue;
-$primary-font: "Mulish", sans-serif;
-$primary-color: #111111;
-$secondary-color: #4A4FF2;
-$thirdary-color: #707070;
+// Imported partials
+@use 'header';
+@use 'variables';
 
+// SASS code
 body {
   padding: 0 2em 0 2em; 
-  border: $safety-border-prim;
-  font-family: $primary-font;
-  color: $primary-color;
+  border: 2px dotted pink;
+  font-family: variables.$primary-font;
+  color: variables.$primary-color;
 }
 div {
   padding: 1em;
-  border: $safety-border-scnd;
+  border: variables.$setup-border;
 }
