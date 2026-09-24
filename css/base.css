@@ -1,8 +1,11 @@
 body {
-  padding: 0 2em 0 2em; 
+  padding: 0 2em 0 2em;
   border: 2px solid red;
+  font-family: "Mulish", sans-serif;
+  color: #111111;
 }
+
 div {
   padding: 1em;
   border: 2px dotted blue;
-}
+}/*# sourceMappingURL=base.css.map */
