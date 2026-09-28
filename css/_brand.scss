@@ -1,0 +1,40 @@
+// Using when setting it up - Delete when done
+$setup-border: 2px dotted red;
+$setup-border2: 2px solid blue;
+
+// Typography
+$primary-font: "Mulish", sans-serif;
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+  opacity: 60%;
+}
+h1 {
+  font-size: 40px;
+  line-height: 1.5;
+  font-weight: 700;
+}
+h2 {
+  font-size: 28px;
+  line-height: 1.4;
+  font-weight: 700;
+}
+h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+h5 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+// Brand colors
+$primary-color: #111111;
+$secondary-color: #4A4FF2;
+$thirdary-color: #707070;
+

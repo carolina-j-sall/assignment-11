@@ -1,20 +1,27 @@
 // Imported partials
-@use 'variables';
+@use 'brand';
 
-.navbar {
-  border: variables.$setup-border;
+.header__navbar {
+  width: 100%;
+  height: 145px;
   display: flex;
-  justify-content: center;
-  align-content: center;
-  .navbar__list {
+  align-items: center;
+  border: brand.$setup-border;
+  .header__navbar__logo {
+    width: 10%;
+    display: flex;
+    justify-content: flex-start;
+    border: brand.$setup-border2;
+  }
+  .header__navbar__list {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
     list-style: none;
   }
-  .navbar__logo {
-    justify-content: flex-start;
-    border: $setup-border2;
-  }
-  .navbar__list-item {
-    justify-content: flex-end;
-    border: $setup-border;
+  .header__navbar__list-item {
+    margin-right: 29px;
+    display: inline-block;
+    border: brand.$setup-border;
   }
 }
