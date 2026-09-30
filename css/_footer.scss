@@ -1,0 +1,38 @@
+@use 'brand';
+
+// Footer
+footer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid brand.$border-color;
+  .footer-logo {
+    width: 64%;
+    height: 23px;
+    align-self: center;
+    justify-self: flex-start;
+  }
+  .footer-navbar {
+    width: 25%;
+    height: 23px;
+    align-self: center;
+    justify-self: center;
+  }
+  .footer-socials {
+    width: 10%;
+    height: 23px;
+    align-self: center;
+    justify-self: flex-end;
+  }
+}
+.footer-navbar-list, .footer-socials-list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.footer-link, .footer-socials-link {
+  height: 45px;
+  width: 45px;
+}
+
