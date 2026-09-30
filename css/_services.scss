@@ -20,7 +20,7 @@
     list-style: none;
   }
   .services-list-link {
-    opacity: 60%;
+    color: brand.$prim-60;
     &:hover {
       opacity: 100%;
     }

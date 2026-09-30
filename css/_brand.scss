@@ -4,8 +4,10 @@ $setup-border2: 2px solid blue;
 
 // Brand colors
 $primary-color: #111111;
+$prim-60: rgba(18, 18, 18, 0.6);
 $secondary-color: #4A4FF2;
 $thirdary-color: #707070;
+$border-color: #D8D8D8;
 
 // Typography
 $primary-font: "Mulish", sans-serif;
@@ -14,7 +16,7 @@ p {
   font-size: 16px;
   line-height: 1.6;
   font-weight: 400;
-  opacity: 60%;
+  color: $prim-60;
 }
 h1 {
   font-size: 40px;
@@ -38,6 +40,10 @@ h5 {
   font-size: 16px;
   font-weight: 700;
 }
+h6 {
+  font-size: 16px;
+  font-weight: 400;
+}
 a {
   text-decoration: none;
   color: $primary-color;
@@ -50,7 +56,7 @@ blockquote {
   line-height: 1.6;
   font-weight: 400;
   font-style: italic;
-  opacity: 60%;
+  color: $prim-60;
   position: relative;
   &:before {
     position: absolute;

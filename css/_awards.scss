@@ -1,0 +1,39 @@
+// Imported partials
+@use 'brand';
+
+// Awards section
+.awards {
+  height: 1110px;
+  // border: 2px solid green;
+}
+.awards-divider {
+  width: 100%;
+  height: 409px;
+  border-top: 2px solid brand.$border-color;
+  padding: 1em 0;
+  .awards-content {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    justify-self: flex-end;
+    align-items: top;
+    padding: 3em 0;
+    // border: brand.$setup-border;
+    &.shorter {
+      width: 70%;
+    }
+    .awards-content-list {
+      width: 190px;
+    }
+  }
+}
+.awards-heading {
+  display: flex;
+  justify-self: flex-start;
+  align-items: top;
+  // border: brand.$setup-border2;
+}
+.awards-content-title {
+  margin-bottom: 12px;
+}
