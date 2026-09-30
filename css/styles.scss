@@ -7,7 +7,7 @@
 @use 'awards';
 @use 'footer';
 
-// SASS code
+// Base SASS for the structure
 * {
   margin: 0;
   padding: 0;
@@ -15,15 +15,12 @@
 body {
   width: 1110px;
   margin: 0 auto;
-  border: 2px dotted pink;
   font-family: brand.$primary-font;
   color: brand.$primary-color;
-  border: brand.$setup-border2;
 }
 section {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   padding: 3em 0;
-  border: brand.$setup-border;
 }

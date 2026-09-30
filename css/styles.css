@@ -292,10 +292,8 @@ footer .footer-socials {
 body {
   width: 1110px;
   margin: 0 auto;
-  border: 2px dotted pink;
   font-family: "Mulish", sans-serif;
   color: #111111;
-  border: 2px solid blue;
 }
 
 section {
@@ -303,5 +301,4 @@ section {
   display: flex;
   flex-wrap: wrap;
   padding: 3em 0;
-  border: 2px dotted red;
 }
