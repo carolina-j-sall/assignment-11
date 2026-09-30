@@ -1,0 +1,69 @@
+// Imported partials
+@use 'brand';
+
+// Gallery grid
+.project-grid {
+  height: 1964px;
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-template-rows: repeat(16, 1fr);
+  gap: 20px;
+}
+.project-container {
+  min-height: 355px;
+  width: 357px; 
+  background-color: lightblue;
+}
+.one {
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+.two {
+  grid-column: 1/2;
+  grid-row: 3/6;
+}
+.three {
+  grid-column: 1/2;
+  grid-row: 6/11;
+}
+.four {
+  grid-column: 1/2;
+  grid-row: 11/17;
+}
+.five {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.six {
+  grid-column: 2/3;
+  grid-row: 2/4;
+}
+.seven {
+  grid-column: 2/3;
+  grid-row: 4/10;
+}
+.eight {
+  grid-column: 2/3;
+  grid-row: 10/17;
+}
+.nine {
+  grid-column: 3/4;
+  grid-row: 1/5;
+}
+.ten {
+  grid-column: 3/4;
+  grid-row: 5/7;
+}
+.eleven {
+  grid-column: 3/4;
+  grid-row: 7/15;
+}
+.twelve {
+  grid-column: 3/4;
+  grid-row: 15/17;
+}
+.project-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;  
+}

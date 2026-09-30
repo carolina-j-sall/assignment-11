@@ -32,18 +32,30 @@ h5 {
   font-weight: 700;
 }
 
+blockquote {
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+  font-style: italic;
+  opacity: 60%;
+  position: relative;
+}
+blockquote:before {
+  position: absolute;
+  top: -28px;
+  content: "____";
+}
+
 .header__navbar {
   width: 100%;
   height: 145px;
   display: flex;
   align-items: center;
-  border: 2px dotted red;
 }
 .header__navbar .header__navbar__logo {
   width: 10%;
   display: flex;
   justify-content: flex-start;
-  border: 2px solid blue;
 }
 .header__navbar .header__navbar__list {
   width: 90%;
@@ -52,9 +64,107 @@ h5 {
   list-style: none;
 }
 .header__navbar .header__navbar__list-item {
-  margin-right: 29px;
+  margin-left: 29px;
   display: inline-block;
-  border: 2px dotted red;
+}
+
+.intro {
+  margin-bottom: 8em;
+}
+
+.intro-content {
+  width: 58%;
+}
+
+.intro-eyebrow {
+  color: #4A4FF2;
+}
+
+.intro-side {
+  width: 42%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.project-grid {
+  height: 1964px;
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-template-rows: repeat(16, 1fr);
+  gap: 20px;
+}
+
+.project-container {
+  min-height: 355px;
+  width: 357px;
+  background-color: lightblue;
+}
+
+.one {
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+
+.two {
+  grid-column: 1/2;
+  grid-row: 3/6;
+}
+
+.three {
+  grid-column: 1/2;
+  grid-row: 6/11;
+}
+
+.four {
+  grid-column: 1/2;
+  grid-row: 11/17;
+}
+
+.five {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.six {
+  grid-column: 2/3;
+  grid-row: 2/4;
+}
+
+.seven {
+  grid-column: 2/3;
+  grid-row: 4/10;
+}
+
+.eight {
+  grid-column: 2/3;
+  grid-row: 10/17;
+}
+
+.nine {
+  grid-column: 3/4;
+  grid-row: 1/5;
+}
+
+.ten {
+  grid-column: 3/4;
+  grid-row: 5/7;
+}
+
+.eleven {
+  grid-column: 3/4;
+  grid-row: 7/15;
+}
+
+.twelve {
+  grid-column: 3/4;
+  grid-row: 15/17;
+}
+
+.project-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 * {
@@ -63,13 +173,17 @@ h5 {
 }
 
 body {
-  width: 1360px;
+  width: 1110px;
   margin: 0 auto;
   border: 2px dotted pink;
   font-family: "Mulish", sans-serif;
   color: #111111;
+  border: 2px solid blue;
 }
 
-div {
+section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
   border: 2px dotted red;
 }

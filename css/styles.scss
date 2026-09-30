@@ -1,6 +1,8 @@
 // Imported partials
-@use 'header';
 @use 'brand';
+@use 'header';
+@use 'intro';
+@use 'gallery';
 
 // SASS code
 * {
@@ -8,13 +10,16 @@
   padding: 0;
 }
 body {
-  width: 1360px;
+  width: 1110px;
   margin: 0 auto;
-  // padding: 0 2em 0 2em; 
   border: 2px dotted pink;
   font-family: brand.$primary-font;
   color: brand.$primary-color;
+  border: brand.$setup-border2;
 }
-div {
+section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
   border: brand.$setup-border;
 }

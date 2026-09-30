@@ -1,0 +1,20 @@
+// Imported partials
+@use 'brand';
+@use 'header';
+
+// Intro
+.intro {
+  margin-bottom: 8em;
+}
+.intro-content {
+  width: 58%;
+}
+.intro-eyebrow {
+  color: brand.$secondary-color;
+}
+.intro-side {
+  width: 42%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}

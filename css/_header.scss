@@ -6,12 +6,12 @@
   height: 145px;
   display: flex;
   align-items: center;
-  border: brand.$setup-border;
+  // border: brand.$setup-border;
   .header__navbar__logo {
     width: 10%;
     display: flex;
     justify-content: flex-start;
-    border: brand.$setup-border2;
+    // border: brand.$setup-border2;
   }
   .header__navbar__list {
     width: 90%;
@@ -20,8 +20,8 @@
     list-style: none;
   }
   .header__navbar__list-item {
-    margin-right: 29px;
+    margin-left: 29px;
     display: inline-block;
-    border: brand.$setup-border;
+    // border: brand.$setup-border;
   }
 }

@@ -2,8 +2,14 @@
 $setup-border: 2px dotted red;
 $setup-border2: 2px solid blue;
 
+// Brand colors
+$primary-color: #111111;
+$secondary-color: #4A4FF2;
+$thirdary-color: #707070;
+
 // Typography
 $primary-font: "Mulish", sans-serif;
+
 p {
   font-size: 16px;
   line-height: 1.6;
@@ -32,9 +38,18 @@ h5 {
   font-size: 16px;
   font-weight: 700;
 }
+blockquote {
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+  font-style: italic;
+  opacity: 60%;
+  position: relative;
+  &:before {
+    position: absolute;
+    top: -28px;
+    content: "____";
+  }
+}
 
-// Brand colors
-$primary-color: #111111;
-$secondary-color: #4A4FF2;
-$thirdary-color: #707070;
 
