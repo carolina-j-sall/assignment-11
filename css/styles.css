@@ -229,11 +229,10 @@ span {
   display: flex;
   justify-content: space-between;
   justify-self: flex-end;
-  align-items: top;
   padding: 3em 0;
 }
 .awards-divider .awards-content.shorter {
-  width: 70%;
+  width: 65%;
 }
 .awards-divider .awards-content .awards-content-list {
   width: 190px;
@@ -242,7 +241,6 @@ span {
 .awards-heading {
   display: flex;
   justify-self: flex-start;
-  align-items: top;
 }
 
 .awards-content-title {

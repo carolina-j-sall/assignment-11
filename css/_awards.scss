@@ -17,11 +17,10 @@
     display: flex;
     justify-content: space-between;
     justify-self: flex-end;
-    align-items: top;
     padding: 3em 0;
     // border: brand.$setup-border;
     &.shorter {
-      width: 70%;
+      width: 65%;
     }
     .awards-content-list {
       width: 190px;
@@ -31,9 +30,11 @@
 .awards-heading {
   display: flex;
   justify-self: flex-start;
-  align-items: top;
   // border: brand.$setup-border2;
 }
+// .awards-title {
+//   margin-right: 2em;
+// }
 .awards-content-title {
   margin-bottom: 12px;
 }
