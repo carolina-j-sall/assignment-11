@@ -2,7 +2,8 @@
 @use 'brand';
 @use 'header';
 @use 'intro';
-@use 'gallery';
+@use 'projects';
+@use 'services';
 
 // SASS code
 * {
@@ -21,5 +22,6 @@ section {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  padding: 3em 0;
   border: brand.$setup-border;
 }

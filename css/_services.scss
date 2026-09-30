@@ -1,0 +1,32 @@
+// Imported partials
+@use 'brand';
+
+// Services
+.services-content {
+  display: flex;
+  align-items: center;
+  width: 57.2%;
+}
+.services-content-list {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-end;
+  width: 42.8%;
+  .services-list {
+    width: 57%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+  }
+  .services-list-link {
+    opacity: 60%;
+    &:hover {
+      opacity: 100%;
+    }
+  }
+  .services-list-item {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+}

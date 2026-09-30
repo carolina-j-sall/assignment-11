@@ -34,6 +34,7 @@ h5 {
 
 a {
   text-decoration: none;
+  color: #111111;
 }
 a:hover {
   color: #4A4FF2;
@@ -80,7 +81,7 @@ span {
 }
 
 .intro {
-  margin-bottom: 8em;
+  margin-bottom: 3em;
 }
 
 .intro-content {
@@ -99,7 +100,7 @@ span {
 }
 
 .project-grid {
-  height: 1964px;
+  height: 2153px;
   display: grid;
   grid-template-columns: 1fr, 1fr, 1fr;
   grid-template-rows: repeat(16, 1fr);
@@ -177,6 +178,36 @@ span {
   object-fit: cover;
 }
 
+.services-content {
+  display: flex;
+  align-items: center;
+  width: 57.2%;
+}
+
+.services-content-list {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-end;
+  width: 42.8%;
+}
+.services-content-list .services-list {
+  width: 57%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+}
+.services-content-list .services-list-link {
+  opacity: 60%;
+}
+.services-content-list .services-list-link:hover {
+  opacity: 100%;
+}
+.services-content-list .services-list-item {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -195,5 +226,6 @@ section {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  padding: 3em 0;
   border: 2px dotted red;
 }
