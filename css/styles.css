@@ -219,7 +219,7 @@ span {
 
 .awards-divider {
   width: 100%;
-  height: 409px;
+  height: 550px;
   border-top: 2px solid #D8D8D8;
   padding: 1em 0;
 }
@@ -238,9 +238,8 @@ span {
   width: 190px;
 }
 
-.awards-heading {
-  display: flex;
-  justify-self: flex-start;
+.border-bottom {
+  border-bottom: 2px solid #D8D8D8;
 }
 
 .awards-content-title {
@@ -252,7 +251,6 @@ footer {
   height: 200px;
   display: flex;
   flex-direction: row;
-  border-top: 1px solid #D8D8D8;
 }
 footer .footer-logo {
   width: 64%;

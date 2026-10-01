@@ -7,7 +7,7 @@
 }
 .awards-divider {
   width: 100%;
-  height: 409px;
+  height: 550px;
   border-top: 2px solid brand.$border-color;
   padding: 1em 0;
   .awards-content {
@@ -24,6 +24,9 @@
       width: 190px;
     }
   }
+}
+.border-bottom {
+  border-bottom: 2px solid brand.$border-color;
 }
 .awards-content-title {
   margin-bottom: 12px;
