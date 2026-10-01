@@ -4,7 +4,6 @@
 // Awards section
 .awards {
   height: 1110px;
-  // border: 2px solid green;
 }
 .awards-divider {
   width: 100%;
@@ -18,7 +17,6 @@
     justify-content: space-between;
     justify-self: flex-end;
     padding: 3em 0;
-    // border: brand.$setup-border;
     &.shorter {
       width: 65%;
     }
@@ -26,10 +24,6 @@
       width: 190px;
     }
   }
-}
-.awards-heading {
-  display: flex;
-  justify-self: flex-start;
 }
 .awards-content-title {
   margin-bottom: 12px;
