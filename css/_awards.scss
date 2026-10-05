@@ -1,33 +1,37 @@
 // Imported partials
 @use 'brand';
 
-// Awards section
 .awards {
-  height: 1110px;
+  height: 823;
 }
 .awards-divider {
-  width: 100%;
   height: 550px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   border-top: 2px solid brand.$border-color;
-  padding: 1em 0;
-  .awards-content {
-    width: 100%;
-    height: 50%;
-    display: flex;
-    justify-content: space-between;
-    justify-self: flex-end;
-    padding: 3em 0;
-    &.shorter {
-      width: 65%;
-    }
-    .awards-content-list {
-      width: 190px;
-    }
-  }
 }
-.border-bottom {
-  border-bottom: 2px solid brand.$border-color;
+.awards-heading {
+  width: 300px;
+  margin-top: 3em;
+}
+.awards-content {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  height: 275px;
+  margin-top: 3em;
+}
+.awards-buffer {
+  width: 303px;
+  height: 550px;
 }
 .awards-content-title {
   margin-bottom: 12px;
+}
+.awards-content-list {
+  width: 190px;
+}
+.border-bottom {
+  border-bottom: 2px solid brand.$border-color;
 }
