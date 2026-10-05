@@ -1,0 +1,25 @@
+// Imported partials
+@use 'brand';
+@use 'contact-form';
+
+// Contact page
+.contact {
+  height: 1002px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.contact-content {
+  width: 475px;
+  .contact-headline {
+    line-height: 1.4;
+  }
+  .contact-text {
+    width: 445px;
+  }
+}
+.contact-adress {
+  width: 100%;
+  margin-top: 8em;
+  filter: grayscale(100%);
+}

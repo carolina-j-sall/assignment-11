@@ -1,0 +1,32 @@
+// Imported partials
+@use 'brand';
+
+// Contact form styling
+.contact-form {
+  width: 475px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  .contact-label {
+    margin-bottom: 16px;
+  }
+  .contact-input {
+    margin-bottom: 3em;
+    border: none;
+    border-bottom: 1px solid brand.$border-30op;
+  }
+  .contact-submit {
+    width: 125px;
+    height: 50px;
+    background-color: brand.$secondary-color;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    &:hover {
+      background-color: brand.$prim-60;
+    }
+  }
+}
+
+
+
