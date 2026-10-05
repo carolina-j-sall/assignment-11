@@ -1,21 +1,16 @@
 // Imported partials
 @use 'brand';
 
-.article-template {
-  border: brand.$setup-border2;
-}
 .article-half {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 4em;
+  margin-bottom: 3em;
   .article-intro {
     width: 645px;
-    border: brand.$setup-border;
   }
   .article-half-text {
     width: 635px;
-    border: brand.$setup-border;
   }
 }
 .article-details {
@@ -23,7 +18,6 @@
   display: flex;
   flex-direction: row;
   margin-top: 38px;
-  border: brand.$setup-border;
 }
 .article-detail-titles {
   width: 150px;
@@ -31,7 +25,7 @@
   .article-detail-title {
     height: 42px;
     margin-bottom: 18px;
-    border-bottom: 1px solid brand.$border-color;
+    border-bottom: 1px solid brand.$border-30op;
   }
 }
 .article-detail-texts {
@@ -40,6 +34,17 @@
   .article-detail-text {
     height: 42px;
     margin-bottom: 18px;
-    border-bottom: 1px solid brand.$border-color;
+    border-bottom: 1px solid brand.$border-30op;
   }
 }
+.article-container {
+  margin-bottom: 3em;
+  .article-img {
+    margin-bottom: 3em;
+  }
+}
+.article-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
