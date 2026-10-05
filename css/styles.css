@@ -314,6 +314,9 @@ footer .footer-socials {
 .article-half .article-intro {
   width: 645px;
 }
+.article-half .article-intro .article-title {
+  line-height: 1.4;
+}
 .article-half .article-half-text {
   width: 635px;
 }
