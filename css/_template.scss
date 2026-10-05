@@ -1,0 +1,45 @@
+// Imported partials
+@use 'brand';
+
+.article-template {
+  border: brand.$setup-border2;
+}
+.article-half {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 4em;
+  .article-intro {
+    width: 645px;
+    border: brand.$setup-border;
+  }
+  .article-half-text {
+    width: 635px;
+    border: brand.$setup-border;
+  }
+}
+.article-details {
+  width: 335px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 38px;
+  border: brand.$setup-border;
+}
+.article-detail-titles {
+  width: 150px;
+  justify-self: flex-start;
+  .article-detail-title {
+    height: 42px;
+    margin-bottom: 18px;
+    border-bottom: 1px solid brand.$border-color;
+  }
+}
+.article-detail-texts {
+  width: 150px;
+  justify-self: flex-end;
+  .article-detail-text {
+    height: 42px;
+    margin-bottom: 18px;
+    border-bottom: 1px solid brand.$border-color;
+  }
+}

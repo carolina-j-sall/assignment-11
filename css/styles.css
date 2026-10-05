@@ -85,6 +85,42 @@ span {
   display: inline-block;
 }
 
+footer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+}
+footer .footer-logo {
+  width: 64%;
+  height: 23px;
+  align-self: center;
+  justify-self: flex-start;
+}
+footer .footer-navbar {
+  width: 25%;
+  height: 23px;
+  align-self: center;
+  justify-self: center;
+}
+footer .footer-socials {
+  width: 10%;
+  height: 23px;
+  align-self: center;
+  justify-self: flex-end;
+}
+
+.footer-navbar-list, .footer-socials-list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.footer-link, .footer-socials-link {
+  height: 45px;
+  width: 45px;
+}
+
 .intro {
   margin-bottom: 3em;
 }
@@ -246,40 +282,51 @@ span {
   margin-bottom: 12px;
 }
 
-footer {
-  width: 100%;
-  height: 200px;
+.article-template {
+  border: 2px solid blue;
+}
+
+.article-half {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 4em;
+}
+.article-half .article-intro {
+  width: 645px;
+  border: 2px dotted red;
+}
+.article-half .article-half-text {
+  width: 635px;
+  border: 2px dotted red;
+}
+
+.article-details {
+  width: 335px;
   display: flex;
   flex-direction: row;
+  margin-top: 38px;
+  border: 2px dotted red;
 }
-footer .footer-logo {
-  width: 64%;
-  height: 23px;
-  align-self: center;
+
+.article-detail-titles {
+  width: 150px;
   justify-self: flex-start;
 }
-footer .footer-navbar {
-  width: 25%;
-  height: 23px;
-  align-self: center;
-  justify-self: center;
+.article-detail-titles .article-detail-title {
+  height: 42px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #D8D8D8;
 }
-footer .footer-socials {
-  width: 10%;
-  height: 23px;
-  align-self: center;
+
+.article-detail-texts {
+  width: 150px;
   justify-self: flex-end;
 }
-
-.footer-navbar-list, .footer-socials-list {
-  display: flex;
-  justify-content: space-evenly;
-  list-style: none;
-}
-
-.footer-link, .footer-socials-link {
-  height: 45px;
-  width: 45px;
+.article-detail-texts .article-detail-text {
+  height: 42px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #D8D8D8;
 }
 
 * {
@@ -292,6 +339,7 @@ body {
   margin: 0 auto;
   font-family: "Mulish", sans-serif;
   color: #111111;
+  border: 2px solid green;
 }
 
 section {

@@ -1,11 +1,13 @@
 // Imported partials
 @use 'brand';
 @use 'header';
+@use 'footer';
 @use 'intro';
 @use 'projects';
 @use 'services';
 @use 'awards';
-@use 'footer';
+@use 'template';
+
 
 // Base SASS for the structure
 * {
@@ -17,6 +19,7 @@ body {
   margin: 0 auto;
   font-family: brand.$primary-font;
   color: brand.$primary-color;
+  border: 2px solid green;
 }
 section {
   width: 100%;
